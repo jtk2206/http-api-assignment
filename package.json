@@ -1,0 +1,27 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "HTTP api assignment",
+  "homepage": "https://github.com/jtk2206/http-api-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/jtk2206/http-api-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtk2206/http-api-assignment.git"
+  },
+  "license": "ISC",
+  "author": "Jason Kogan",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0"
+  }
+}
